@@ -7,6 +7,7 @@ import generateBarChart from './generateBarChart';
 import { userInfoQuery, createContributedRepoQuery, createCommittedDateQuery } from './queries';
 /**
  * get environment variable
+ *
  */
 config({ path: resolve(__dirname, '../.env') });
 
